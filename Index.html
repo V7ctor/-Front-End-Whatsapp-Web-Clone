@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WhatsApp Web Clone</title>
+        
+        <link rel="stylesheet" href="stylesheet.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <aside class="sidebar">
+                <div class="toolbar-container">
+                    <img class="user-photo" src="img/avatar1.png">
+                    <div class="toolbar-container-aux-icons">
+                        <i class="fas fa-spinner"></i>
+                        <i class="fas fa-comment-alt"></i>
+                        <i class="fas fa-ellipsis-v"></i>
+                    </div>
+                </div>
+                <div class="notification-container">
+                    <i class="fas fa-bell-slash"></i>
+				    <p class="receive-notification">Receba notificações de novas mensagens</p>
+				    <p class="activate-notification">
+                        Ativar notificações na área de trabalho 
+                        <i class="fas fa-angle-right"></i>
+                    </p>
+                </div>
+                <div class="search-container">
+                    <i id="contact-search" class="fas fa-search"></i>
+                    <input type="search" name="search" id="search" placeholder="Procurar ou começar uma nova conversa">
+                </div>
+                <div class="contacts-container">
+                    <div class="contact-box active-chat">
+                        <img class="user-photo" src="img/avatar2.png">
+                        <div class="user-info">
+                            <p class="user-name">Paula Silveira</p>
+                            <p class="user-message-preview">
+                                <i class="fa fa-check-double"></i>
+                                Bem vindo ao Whatsapp Clone
+                            </p>
+                        </div>
+                        <div class="message-info">
+                            <p class="message-time">22:35</p>
+                        </div> 
+                    </div>
+                    
+                    <div class="contact-box">
+                        <img class="user-photo" src="img/avatar3.png">
+                        <div class="user-info">
+                            <p class="user-name">Márcio Borges</p>
+                            <p class="user-message-preview">
+                                <i class="fa fa-check-double"></i>
+                                O projeto estará disponível em qual...
+                            </p>
+                        </div>
+                        <div class="message-info">
+                            <p class="message-time">22:40</p>
+                            <p class="message-pending">3</p>
+                        </div> 
+                    </div>
+                    
+                     <div class="contact-box">
+                        <img class="user-photo" src="img/avatar4.png">
+                        <div class="user-info">
+                            <p class="user-name">Sr. Martinez</p>
+                            <p class="user-message-preview">
+                                <i class="fa fa-check-double"></i>
+                                Qual o valor do projeto ?
+                            </p>
+                        </div>
+                        <div class="message-info">
+                            <p class="message-time">12:22</p>
+                            <p class="message-pending">1</p>
+                        </div> 
+                    </div>
+                    
+                    <div class="contact-box">
+                        <img class="user-photo" src="img/avatar5.png">
+                        <div class="user-info">
+                            <p class="user-name">+14 99999-9999</p>
+                            <p class="user-message-preview">
+                                <i class="fa fa-check-double"></i>
+                                Boa tarde! Estamos testando um no...
+                            </p>
+                        </div>
+                        <div class="message-info">
+                            <p class="message-time">15:59</p>
+                            <p class="message-pending">8</p>
+                        </div> 
+                    </div>
+                </div>
+            </aside>
+            <main class="chat-container">
+                <nav class="chat-navbar">
+                    <div class="contact-info-container">
+                        <img class="user-photo" src="img/avatar2.png">
+                        <p class="user-name">Paula Silveira</p>
+                    </div>
+                    <ul class="chat-tools-container">
+                        <li><i class="fas fa-search"></i></li>
+                        <li><i class="fas fa-paperclip"></i></li>
+                        <li><i class="fas fa-ellipsis-v"></i></li>
+                    </ul>
+                </nav>
+                <div class="messages-container">
+                    <div class="bg-image">
+                    </div>
+                    <div class="chat-messages">
+                    <p class="guest-message">Bem vindo ao Whatsapp Clone</p>
+                    <p class="user-message">Hello World!!!</p>
+                        
+                    </div>
+                    <div class="send-message-container">
+                        <i class="far fa-grin"></i>
+                        <input type="text" name="message" id="message" class="user-input" placeholder="digite uma mensagem...">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                </div>
+            </main>
+        </div>
+         <script src="https://kit.fontawesome.com/bf7e05c402.js"></script>
+    </body>
+</html>
